@@ -1,0 +1,7 @@
+print('Задача 2. Финансовый отчёт')
+first_quarter = int(input('Введите доход за первый квартал: '))
+second_quarter = int(input('Введите доход за второй квартал: '))
+penultimate_quarter = int(input('Введите доход за предпоследний квартал: '))
+last_quarter = int(input('Введите доход за последний квартал: '))
+result = (first_quarter + second_quarter) / (penultimate_quarter + last_quarter)
+print('Динамика роста:', result)
